@@ -1,34 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4: vercel -v  
+5: npm init  
+6: vercel  
+7: vercel list td-vercel-node  
+8: vercel logs td-vercel-node-rmp5o5ffl.vercel.app  
+9: vercel inspect td-vercel-node-rmp5o5ffl.vercel.app permet d'afficher les informations sur un déploiement  
+10: défini un cadre déexecution pour l'appli  
+11: vercel env add  
+12: vercel env ls  
+13: ce sont des variables secrètes, utilisées pour des mot de passe, etc...  
+15: vercel secret add second_secret_var thisisanotherpassword  
+16: Production, Preview et Development, ils sont utilisé dans les différents stades d'une projet, development pour tester le code en cours de dévelopement, preview pour le code dit en beta, et Production pour le code stable mit a disposition du public  
+18:https://td-vercel-node.vercel.app/  
+19: un pull permet de demander une autorisation de merge du code dans la branche principale  
