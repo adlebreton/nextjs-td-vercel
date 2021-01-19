@@ -10,5 +10,8 @@
 13: ce sont des variables secrètes, utilisées pour des mot de passe, etc...  
 15: vercel secret add second_secret_var thisisanotherpassword  
 16: Production, Preview et Development, ils sont utilisé dans les différents stades d'une projet, development pour tester le code en cours de dévelopement, preview pour le code dit en beta, et Production pour le code stable mit a disposition du public  
-18:https://td-vercel-node.vercel.app/  
+18: https://nextjs-vercel-omega.vercel.app/  
 19: un pull permet de demander une autorisation de merge du code dans la branche principale  
+20: vercel détecte le merge et pousse en preview ou en production  
+21: master est la branche git qui correspond a l'environement de production, l'interet du pull est de pouvoir travailler a plusieur, sans ecraser le code d'une autre personne  
+22: permet d'être héberger sur le cloud  
